@@ -1,9 +1,5 @@
-!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-
-i=10
-while [ $i -gt 0 ]
-do
-	echo Holberton School
-	((i--))
+#!/usr/bin/env bash
+counter=0
+for (( i = 0; i< 10; i++ )); do
+	echo "Best school"
 done
