@@ -9,6 +9,6 @@ do
 	if [ $count = 9 ]
 	then
 		echo "Hi"
-	fi
+	if
 	((count++))
 done
